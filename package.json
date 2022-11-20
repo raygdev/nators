@@ -4,7 +4,7 @@
   "description": "nature website landing page",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch sass/main.scss style.css"
+    "compile:sass": "sass --watch sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
