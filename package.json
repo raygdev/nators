@@ -1,0 +1,24 @@
+{
+  "name": "nators",
+  "version": "1.0.0",
+  "description": "nature website landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raygdev/nators.git"
+  },
+  "keywords": [
+    "nature",
+    "outdoors",
+    "tours"
+  ],
+  "author": "raygdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raygdev/nators/issues"
+  },
+  "homepage": "https://github.com/raygdev/nators#readme"
+}
