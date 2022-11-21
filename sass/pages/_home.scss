@@ -3,3 +3,19 @@
     padding:25rem 0;
     margin-top: -25vh
 }
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light,0.8),
+        rgba($color-primary-dark,0.8)),
+        url("https://images.unsplash.com/photo-1600204495543-a1c412752eb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG91dGRvb3JzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
+    background-size: cover;
+    margin-top: -7rem;
+    transform: skewY(-6deg);
+
+    & > * {
+        transform: skewY(6deg);
+    }
+}
