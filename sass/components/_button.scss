@@ -18,12 +18,27 @@
         transform: translateY(-.1rem);
         box-shadow: 0 5px 10px rgba(0,0,0,0.2)
     }
-
+    
     &--white {
-        background-color:#fff;
-        color:#777;
+        background-color:$color-white;
+        color:$color-grey-dark;
         padding: .9rem 2.7rem;
         display: inline-block;
+
+        &::after {
+            background-color:$color-white
+        }
+    }
+
+    &--green {
+        background-color:$color-primary;
+        color:$color-white;
+        padding: .9rem 2.7rem;
+        display: inline-block;
+
+        &::after {
+            background-color: $color-primary;
+        }
     }
 
     &::after {
@@ -39,9 +54,6 @@
         transition: all .4s;
     }
 
-    &--white::after {
-        background-color:#fff
-    }
 
     &:hover::after {
         transform:scaleX(1.4) scaleY(1.6);
